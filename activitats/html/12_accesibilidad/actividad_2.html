@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Registro de Usuario</h1>
+    </header>
+
+    <main>
+        <h2>Formulario de Registro</h2>
+        <form action="#" method="POST" aria-labelledby="formulario-registro" id="registro-form">
+            
+            <div class="form-group">
+                <label for="nombre" id="nombre-label">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required aria-describedby="nombre-error" aria-labelledby="nombre-label">
+                <span id="nombre-error" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email" id="email-label">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required aria-describedby="email-error" aria-labelledby="email-label">
+                <span id="email-error" class="error"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="contrasena" id="contrasena-label">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required aria-describedby="contrasena-error" aria-labelledby="contrasena-label">
+                <span id="contrasena-error" class="error"></span>
+            </div>
+
+            <button type="submit">Registrar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Mi Web Accesible</p>
+    </footer>
+
+    </script>
+</body>
+</html>
