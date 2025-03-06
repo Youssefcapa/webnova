@@ -334,7 +334,7 @@ span {
 
 .button-cv a {
     text-decoration: none;
-    color: #191c32;
+    color: #3f414b;
 }
 .button-cv {
     margin: 0 auto;
@@ -415,26 +415,4 @@ font-size: 1em;
 .btn-submit:hover {
     background-color: #fff;
     box-shadow: none;
-}
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100vw;
-    height: 200px;
-    background-color: aqua;
-}
-
-.footer-content h2{
-    font-size: 3em;
-}
-.sotial-network i{
-    font-size: 1.5em;
-}
-.sotial-network {
-    display: flex;
-    justify-content: space-evenly;
-    width: 300px;
-    margin-top: 1em;
 }
