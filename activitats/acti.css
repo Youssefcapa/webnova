@@ -1,0 +1,12 @@
+.back {
+    
+    button-cv {
+        display: flex;
+        width: 80%;
+        justify-content: center;
+        margin-top: 3em;
+    }
+    
+    background-color: rgb(182, 175, 175);
+    color: rgb(0, 0, 0);
+}
