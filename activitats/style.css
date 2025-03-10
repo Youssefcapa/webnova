@@ -17,8 +17,8 @@
  .wrapper {
     width: 100vw;
     height: 100vh;
-    background-color: #191c32;
-    color: #fff;
+    background-color: #3b4646;
+    color: #eaf0ef;
 }
 
 
@@ -33,7 +33,7 @@
 }
 
 .brand span {
-    color: aqua;
+    color: rgb(126, 150, 177);
 }
 
 .menu{
@@ -49,18 +49,18 @@
 
 
 .menu a {
-    color: #fff;
+    color: #7ae0c7;
     text-decoration: none;
     padding: 10px 20px;
 }
 
 
 .menu .active{
-    color: aqua;
+    color: rgb(154, 235, 238);
 }
 
 .menu a:hover {
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
     color:#191c32 ;
     transition: ease-in .4s;
 }
@@ -79,13 +79,13 @@ h1 {
 }
 
 span {
-    color: aqua;
+    color: rgb(114, 133, 238);
 }
 
 
 .main img {
     width: 350px;
-    border: 7px solid aqua;
+    border: 7px solid rgb(252, 252, 255);
     height: 450px;
     width: 400px;
     z-index: 1;
@@ -98,7 +98,7 @@ span {
      align-items: center;
 }
 .about img {
-    width: 100%;
+    width: 60%;
     grid-column: 1/5;
 }
 
@@ -117,7 +117,7 @@ span {
 .divider {
     height: 4px;
     width: 60px;
-    background-color: aqua;
+    background-color: rgb(86, 228, 238);
     margin-top: 5px;
     margin-bottom: 2em;
 }
@@ -129,7 +129,7 @@ span {
 
 .portafolio {
     width: 100vw;
-    background-color: #191c32;
+    background-color: #789493;
 }
 
 .portafolio-headings {
@@ -152,7 +152,7 @@ span {
 }
 .card {
     width: 400px;
-    background-color: rgb(37, 27, 127);
+    background-color: rgb(123, 226, 212);
     margin-right: 5em;
 }
 
@@ -165,7 +165,7 @@ span {
 
 .card-title-html {
     padding: 20px;
-    color: chocolate;
+    color: rgb(12, 11, 11);
 }
 
 .card-activitas-html-links {
@@ -176,7 +176,7 @@ span {
 }
 
 .card-activitas-html-links a {
-    color: #fff;
+    color: #0e0d0d;
     text-decoration: none;
 }
 .card-activitas-html-links i {
@@ -192,7 +192,7 @@ span {
 
 .card-activitats-html {
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: rgb(74, 207, 240);
     border: none;
     border-radius: 20px;
     margin-top: 10px;
@@ -202,7 +202,7 @@ span {
     box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);  
 }
 .card-activitats-html:hover {
-    background-color: azure;
+    background-color: rgb(113, 122, 122);
     box-shadow: none;
 }
 
@@ -236,7 +236,7 @@ span {
 
 .card-title {
     padding: 20px;
-    color: chocolate;
+    color: rgb(5, 5, 4);
 }
 
 .card-activitas-css-links {
@@ -245,7 +245,7 @@ span {
 }
 
 .card-activitas-css-links a {
-    color: #fff;
+    color: #080808;
     text-decoration: none;
 }
 
@@ -261,7 +261,7 @@ span {
 
 .card-activitats {
     padding: 10px 20px;
-    background-color: aqua;
+    background-color: rgb(74, 207, 240);
     border: none;
     border-radius: 20px;
     margin-top: 10px;
@@ -271,7 +271,7 @@ span {
     box-shadow: 1px 3px 11px -5px rgba(102,231,200,0.69);
 }
 .card-activitats:hover {
-    background-color: azure;
+    background-color: rgb(0, 0, 0);
     box-shadow: none;
 }
 
@@ -298,10 +298,10 @@ span {
 }
 .cv {
     background-color: #ffffff;
-    width: 400px;
-    height: 60vh;
-    margin-left: 30em;
-    margin-top: 6em;
+    width: 200px;
+    height: 1%;
+    margin-left: 50em;
+    margin-top: 1em;
    
 }
 .cv-img {
@@ -319,16 +319,16 @@ span {
 }
 
 .button-cv {
-    padding: 10px 20px;
-    background-color: aqua;
+    padding: 15px 25px;
+    background-color: rgb(137, 228, 228);
     border: none;
-    border-radius: 20px;
+    border-radius: 10px;
     margin-top: 10px;
     cursor: pointer;
     box-shadow: 2px 4px 12px -5px rgba(0, 0, 0, 0.69);
 }
 .button-cv:hover {
-    background-color: azure;
+    background-color: rgb(154, 231, 231);
     box-shadow: none;
 }
 
@@ -345,74 +345,4 @@ span {
     width: 80%;
     justify-content: center;
     margin-top: 3em;
-}
-
-.contact-section {
-    background-color: #191c32;
-}
-.contact-headings {
-color: #fff;
-padding: 1em;
-font-size: 1em;
-}
-
-.container-contact {
-    padding: 2em;
-    margin: 0 auto;
-    
-}
-
-.container-contact img {
-    width: 200px;
-    height: 200px;
-    bottom: 0px;
-}
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    width: 30vw;
-    margin-top: 1em;
-    color: #fff;
-
-}
-
-.form {
-    display: flex;
-    flex-direction: column;
-    width: 25vw;
-    margin-top: 1em;
-}
-
-.form input {
-    padding: 5px 10px;
-    margin-bottom: 1em;
-    background: none;
-    border: none;
-    border-bottom: 1px solid #fff;
-    color: #fff;
-}
-
-
-.form textarea {
-    height: 80px;
-    background: none;
-    color: #fff;
-    padding: 1em;
-    border: 1px solid #fff;
-}
-
-.btn-submit {
-    padding: 5px 10px;
-    margin: 1em;
-    border: none;
-    text-transform: uppercase;
-    background-color: aqua;
-    border-radius: 20px;
-    cursor: pointer;
-    box-shadow: 2px 4px 12px -5px rgba(102,231,200,0.69);
-}
-
-.btn-submit:hover {
-    background-color: #fff;
-    box-shadow: none;
 }
