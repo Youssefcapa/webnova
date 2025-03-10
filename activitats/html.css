@@ -1,12 +1,33 @@
 .back {
-    
-    button-cv {
-        display: flex;
-        width: 80%;
-        justify-content: center;
-        margin-top: 3em;
-    }
-    
-    background-color: rgb(182, 175, 175);
+ 
+    height: 10rem
+    background-color: rgb(255, 255, 255);
     color: rgb(0, 0, 0);
 }
+<style>
+
+
+h1 { color: rgb(255, 255, 255);
+
+} 
+
+.back {
+
+  color: hsl(162, 72%, 72%);
+}
+
+.activitat {
+  color: yellow;
+}
+
+.naranja {
+  color: orange;
+}
+
+.uva {
+  color: purple;
+}
+
+
+
+</style>
