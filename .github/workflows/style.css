@@ -105,7 +105,7 @@ nav a:hover {
 }
 
 .price {
-    color: #ffd24c;
+    color: #6ac7bb;
     font-weight: bold;
 }
 
@@ -121,7 +121,7 @@ nav a:hover {
 }
 
 .descargar a {
-    background-color: #ffc837;
+    background-color: #ffffff;
     padding: 10px 20px;
     border-radius: 6px;
     color: black;
@@ -130,7 +130,7 @@ nav a:hover {
 }
 
 .descargar a:hover {
-    background-color: #ffdd57;
+    background-color: #9d9c9c;
 }
 
 
@@ -148,4 +148,13 @@ nav a:hover {
 }
 .idioma{
 cursor: pointer;
+}
+
+.carrusel{
+    width:80%;
+    max-width:900px;
+    margin:50px auto;
+    position:relative;
+    overflow:hidden;
+    border-radius:15px;
 }
